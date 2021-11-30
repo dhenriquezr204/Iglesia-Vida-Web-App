@@ -1,8 +1,8 @@
-# Iglesia-Vida-Web-App
+# IGLESIA-VIDA-WEB-APP
 
 This project was part of a capstone course at the University of Southern Mississippi Spring 2021 with the contribution of https://github.com/macabre-exe. 
 
-# Description
+# DESCRIPTION
 
 Use the application to keep track of the attendance for various worship services. The challenge is to provide a seamless, user-friendly front-end that the user could use to login, and fetch the headcounts of the members of the church at a specific services. The user should be able to login/register/logout as well as to add/update/delete new events. Furthermore the application should be able to predict the attendance into a future date.
 
@@ -16,20 +16,20 @@ Use the application to keep track of the attendance for various worship services
 6. Give access to certain users to a people database	//administrative roles/access
 7. Automated weekly/monthly reports through e-mail, line/bar graph analysis
 
-# Technologies:
+# TECHNOLOGIES:
 
 ## Front-end:
 
-### ReactJS
+###         ReactJS
 
 ## Back-end:
 
-### NodeJS
+###         NodeJS
 
 ## Database:
 
-### Cassandra
+###         Cassandra
 
 ## Machine Learning:
 
-### Python
+###         Python
