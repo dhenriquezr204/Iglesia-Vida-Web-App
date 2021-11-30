@@ -18,18 +18,10 @@ Use the application to keep track of the attendance for various worship services
 
 # TECHNOLOGIES:
 
-## Front-end:
+## Front-end:  ### ReactJS
 
-###         ReactJS
+## Back-end:   ### NodeJS
 
-## Back-end:
+## Database:   ### Cassandra
 
-###         NodeJS
-
-## Database:
-
-###         Cassandra
-
-## Machine Learning:
-
-###         Python
+## Machine Learning:  ### Python
