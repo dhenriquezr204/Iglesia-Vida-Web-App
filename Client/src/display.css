@@ -1,0 +1,365 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b874d}
+
+
+.Display{
+    height: 655px;
+    filter:none;
+}
+
+.event{
+    position: relative;
+    margin: 20px auto;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+    background: white;
+    
+    /* -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3); */
+    /* box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3); */
+}
+
+.title_wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);    
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  
+}
+.name{
+    grid-column: 1/5;
+    position: static;
+    text-align:center;
+    font-weight: bold;
+    font-size: 1.5vw;
+    border: 1px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1vw;
+    /* -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3); */
+}
+
+.f_name{
+    position: relative;
+    grid-column: 1/2;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0vw 0.5vw;
+    margin: 0px;
+}
+.f_name_data{
+    position: relative;
+    grid-column: 2/5;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+    margin: 0px;
+}
+.date_label{
+    position: relative;
+    grid-column: 1/2;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0vw 0.5vw;
+    margin: 0px;
+}
+
+#ministry{
+    grid-column: 1/5;
+    position: static;
+    text-align:center;
+    font-weight: bold;
+    height: auto;
+    font-size: 1.2vw;
+    border: 1px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(189, 189, 189);
+    margin: 0px;
+    /* -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3); */
+}
+
+#sunday_service{
+    grid-column: 1/5;
+    position: static;
+    text-align:center;
+    font-weight: bold;
+    height: auto;
+    font-size: 1.2vw;
+    border: 1px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(154, 206, 71);
+    margin: 0px;
+    /* -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3); */
+}
+
+#item_label{
+    position: relative;
+    grid-column: 1/4;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(189, 189, 189);
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0vw 0.5vw;
+    margin: 0px;
+}
+
+#item{
+    position: relative;
+    grid-column: 4/5;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+#item_label2{
+    position: relative;
+    grid-column: 1/4;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(154, 206, 71);
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0vw 0.5vw;
+    margin: 0px;
+}
+
+/* .form{
+    height: 431px;
+    width: 270px;
+}
+
+.form label{
+
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    
+    text-align: center;
+
+} */
+
+
+/* .form input{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 20%;
+    height: 25px;
+    text-align: right;
+    bottom: 30px;
+    left: 200px;
+    position:relative;
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+/* } */ 
+
+/* .form input:focus{
+    background-color: #ddd;
+    outline: none;
+  } */
+
+/* .form placeholder{
+    opacity: 0;
+} */
+.date{
+    position: relative;
+    text-align: left;
+    font-size: large;
+    top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;     
+}
+
+.nursery{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pre_school{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 55px;
+}
+.kinder{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 60px;
+}
+.early-elementary{
+    position: relative;
+    color: red;
+    font-size: x-small;
+    height: 25px;
+    text-align: left;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    top: 65px;
+}
+.age_range{
+
+    display: inline;
+    color:blue;
+    font-size: smaller;
+}
+
+.late-elementary{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 70px;
+}
+.teachers-assistants{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 75px;
+}
+.sanctuary{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 80px;
+}
+.media-room{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 85px;
+}
+.ushers{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 90px;
+}
+.visitors{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 95px;
+}
+.w-baptisms{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 100px;
+}
+.h-g-baptisms{
+    position: relative;
+    height: 25px;
+    text-align: left;
+    text-size-adjust: 10px;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 105px;
+}
+.attend{
+    position: relative;
+    background-color:#4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:0px;
+    top: 0px;
+    border-radius: 10px;
+    opacity: 0.8;
+
+}
+
+.attend:hover {
+    opacity: 3;
+}
+
+.delete{
+    position: relative;
+    background-color:red;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    top: 10px;
+    opacity: 0.8;
+
+}
+
+.delete:hover{
+    opacity: 3;
+}
