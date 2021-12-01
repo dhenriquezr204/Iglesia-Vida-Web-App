@@ -1,6 +1,6 @@
 # IGLESIA-VIDA-WEB-APP
 
-This project was part of a capstone course at the University of Southern Mississippi Spring 2021 with the contribution of https://github.com/macabre-exe. 
+This project was part of a capstone course at the University of Southern Mississippi Spring 2021. It was develped with the contribution of https://github.com/macabre-exe. 
 
 # DESCRIPTION
 
